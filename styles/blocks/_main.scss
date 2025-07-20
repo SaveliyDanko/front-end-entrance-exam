@@ -1,0 +1,43 @@
+@use '../helpers' as *;
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'PoppinsRegular';
+}
+
+.editable-text {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+
+    .ripple {
+        position: absolute;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.3);
+        transform: scale(0);
+        animation: ripple-animation 600ms linear;
+        pointer-events: none;
+    }
+
+    &:focus {
+        outline: none; /* убрать стандартную рамку */
+        border-radius: 4px;
+        box-shadow: 0 0 0 3px rgba(0, 238, 24, 0.2);
+        background-color: #fdfcff;
+        color: black;
+    }
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.no-scalable {
+    &:hover {
+        transform: scale(1.02);
+    }
+}

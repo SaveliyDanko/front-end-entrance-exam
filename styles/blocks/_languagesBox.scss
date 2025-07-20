@@ -1,0 +1,81 @@
+@use '../helpers' as *;
+
+.languagesBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: rem(267);
+    height: rem(124);
+
+    min-width: rem(267);
+    min-height: rem(124);
+
+    padding: rem(12) rem(12) rem(22) rem(12);
+
+    border-radius: rem(12);
+
+    background-color: var(--color-grey);
+
+    &__title {
+        width: rem(79);
+        height: rem(21);
+        font-weight: 500;
+        font-size: rem(14);
+        line-height: 150%;
+    }
+
+    &__listLanguages {
+        display: flex;
+        justify-content: space-between;
+        width: rem(243);
+        height: rem(53);
+        font-size: rem(10);
+        font-weight: 500;
+    }
+
+    &__nameLanguage {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: rem(58);
+        height: rem(50);
+        line-height: 104%;
+    }
+
+    &__english {
+        width: rem(36);
+        height: rem(12);
+    }
+
+    &__malayalam {
+        width: rem(58);
+        height: rem(13);
+    }
+
+    &__hindi {
+        width: rem(27);
+        height: rem(12);
+    }
+
+    &__levelLanguage {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: rem(168);
+        height: rem(53);
+    }
+
+    &__englishProgressBar {
+        width: rem(168);
+        height: rem(11);
+        border-radius: rem(3);
+        background-color: var(--color-green);
+    }
+
+    &__galicianProgressBar {
+        width: rem(129);
+        height: rem(11);
+        border-radius: rem(3);
+        background-color: var(--color-green);
+    }
+}

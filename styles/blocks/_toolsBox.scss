@@ -1,0 +1,271 @@
+@use '../helpers' as *;
+
+.toolsBox {
+    position: relative;
+    width: rem(124);
+    height: rem(359);
+
+    min-width: rem(124);
+    min-height: rem(359);
+
+    border-radius: rem(12);
+
+    background-color: var(--color-grey);
+
+    &__title {
+        position: absolute;
+        width: rem(42);
+        height: rem(21);
+
+        top: rem(12);
+        left: rem(12);
+    }
+
+    &__tag1 {
+        position: absolute;
+        top: rem(43);
+        left: rem(47);
+        width: rem(30);
+        height: rem(11);
+        background-color: black;
+        font-size: rem(5);
+        color: white;
+        line-height: rem(11);
+        text-align: center;
+        border-radius: rem(59);
+        z-index: 5;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    &__tag2 {
+        position: absolute;
+        top: rem(166);
+        left: rem(45);
+        width: rem(35);
+        height: rem(11);
+        background-color: black;
+        font-size: rem(5);
+        color: white;
+        line-height: rem(11);
+        text-align: center;
+        border-radius: rem(59);
+        z-index: 5;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    &__tag3 {
+        position: absolute;
+        top: rem(264);
+        left: rem(29);
+        width: rem(65);
+        height: rem(11);
+        background-color: black;
+        font-size: rem(5);
+        color: white;
+        line-height: rem(11);
+        text-align: center;
+        border-radius: rem(59);
+        z-index: 5;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+
+    &__frame {
+        position: absolute;
+
+        width: rem(76);
+        height: rem(309);
+
+        top: rem(48);
+        right: rem(24);
+        left: rem(24);
+        bottom: rem(2.95);
+
+        
+    }
+
+    &__design {
+        position: relative;
+        width: rem(76);
+        height: rem(112);
+
+        border-radius: rem(6);
+
+        background-color: white;
+    }
+
+    &__figma {
+        position: absolute;
+
+        top: rem(16);
+        left: rem(18);
+
+        width: rem(11);
+        height: rem(15);
+        background-image: url(../../icons/logoFigma.svg);
+    }
+
+    &__adobe-photoshop {
+        position: absolute;
+
+        top: rem(16);
+        right: rem(18);
+
+        width: rem(16);
+        height: rem(15);
+        background-image: url(../../icons/adobe_photoshop_.svg);
+    }
+
+    &__adobe-illustrator {
+        position: absolute;
+
+        top: rem(47);
+        left: rem(16);
+
+        width: rem(15);
+        height: rem(15);
+        background-image: url(../../icons/adobe_illustrator_.svg);
+    }
+
+    &__adobe-premier {
+        position: absolute;
+
+        top: rem(47);
+        right: rem(16);
+
+        width: rem(15);
+        height: rem(15);
+        background-image: url(../../icons/adobe_premiere_.svg);
+    }
+
+    &__logoNotion {
+        position: absolute;
+
+        top: rem(78);
+        left: rem(16);
+
+        width: rem(18);
+        height: rem(19);
+        background-image: url(../../icons/logoNotion.svg);
+    }
+
+    &__logoMeet {
+        position: absolute;
+
+        top: rem(78);
+        right: rem(16);
+
+        width: rem(18);
+        height: rem(17);
+        background-image: url(../../icons/logoMeet.svg);
+    }
+
+    &__nocode {
+        position: relative;
+        width: rem(76);
+        height: rem(87);
+        margin: rem(12) 0;
+
+        border-radius: rem(6);
+
+        background-color: white;
+    }
+
+    &__logoZapier {
+        position: absolute;
+
+        top: rem(16);
+        left: rem(11);
+
+        width: rem(20);
+        height: rem(21);
+        background-image: url(../../icons/logoZapier.svg);
+    }
+
+    &__logoWebflow {
+        position: absolute;
+
+        top: rem(16);
+        right: rem(11);
+
+        width: rem(18);
+        height: rem(19);
+        background-image: url(../../icons/logoWebflow.svg);
+    }
+
+    &__logoFramer {
+        position: absolute;
+
+        top: rem(52);
+        left: rem(12);
+
+        width: rem(13);
+        height: rem(19);
+        background-image: url(../../icons/logoFramer.svg);
+    }
+
+    &__logoWordpress {
+        position: absolute;
+
+        top: rem(53);
+        right: rem(15);
+
+        width: rem(17);
+        height: rem(18);
+        background-image: url(../../icons/logoWordpress.svg);
+    }
+
+    &__ai {
+        position: relative;
+        width: rem(76);
+        height: rem(86);
+        margin: rem(12) 0;
+
+        border-radius: rem(6);
+
+        background-color: white;
+    }
+
+    &__logoChatGPT {
+        position: absolute;
+
+        top: rem(16);
+        left: rem(12);
+
+        width: rem(20);
+        height: rem(20);
+        background-image: url(../../icons/logoChatGPT.svg);
+    }
+
+    &__logoCopilot {
+        position: absolute;
+
+        top: rem(16);
+        right: rem(12);
+
+        width: rem(18);
+        height: rem(19);
+        background-image: url(../../icons/logoCopilot.svg);
+    }
+
+    &__logoMidjourney {
+        position: absolute;
+
+        top: rem(51);
+        left: rem(11);
+
+        width: rem(19);
+        height: rem(19);
+        background-image: url(../../icons/logoMidjourney.svg);
+    }
+    
+}

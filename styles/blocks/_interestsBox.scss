@@ -1,0 +1,43 @@
+@use '../helpers' as *;
+
+.interests {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    width: rem(267);
+    height: rem(177);
+
+    min-width: rem(267);
+    min-height: rem(177);
+
+    padding: rem(12);
+
+    border-radius: rem(12);
+
+    background-color: var(--color-grey);
+
+    &__title {
+        width: rem(61);
+        height: rem(21);
+        font-size: rem(14);
+
+        font-family: 'PoppinsMedium';
+    }
+
+    &__content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: rem(8);
+        width: rem(243);
+        height: rem(116);
+    }
+
+    &__tag {
+        height: rem(23);
+        background-color: white;
+        padding: rem(4) rem(10);
+        border-radius: rem(40);
+        font-size: rem(10);
+    }
+}

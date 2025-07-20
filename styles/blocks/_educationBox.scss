@@ -1,0 +1,218 @@
+@use '../helpers' as *;
+
+.educationBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: rem(268);
+    height: rem(289);
+
+    min-width: rem(268);
+    min-height: rem(289);
+    padding: rem(12);
+
+    border-radius: rem(12);
+
+    background-color: var(--color-grey);
+
+    .hashtag {
+        height: rem(12);
+        line-height: rem(10);
+        font-size: rem(8);
+
+        &--green {
+            color: #149063;
+        }
+    }
+
+    
+
+    &__title {
+        width: rem(71);
+        height: rem(21);
+        font-size: rem(14);
+        line-height: 150%;
+        font-family: 'PoppinsMedium';
+    }
+
+    &__content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: rem(16);
+        width: rem(248);
+        height: rem(228);
+    }
+
+    &__column1 {
+        display: flex;
+        flex-direction: column;
+        gap: rem(12);
+        width: rem(116);
+        height: rem(228);
+
+    }
+
+    &__column2 {
+        width: rem(116);
+        height: rem(108);
+    }
+
+    &__edu1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: rem(116);
+        height: rem(120);
+        padding: rem(8);
+
+        border-radius: rem(10);
+
+        background-color: var(--color-green);
+    }
+
+    &__edu2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: rem(116);
+        height: rem(96);
+        padding: rem(8);
+
+
+        border-radius: rem(10);
+
+        background-color: white;
+    }
+
+    &__edu3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: rem(116);
+        height: rem(108);
+        padding: rem(8);
+
+
+        border-radius: rem(10);
+
+        background-color: white;
+    }
+
+    // --------------------------------------
+    &__bar1 {
+        display: flex;
+        justify-content: space-between;
+        width: rem(100);
+        height: rem(15);
+        font-size: rem(10);
+        font-family: 'PoppinsMedium';
+
+        div:last-child {
+            width: rem(11);
+            height: rem(10);
+            background-image: url('../../icons/Vector.svg');
+        }
+    }
+
+    &__tags1 {
+        width: rem(100);
+        height: rem(61);
+
+        &__title {
+            width: rem(31);
+            height: rem(15);
+
+            font-size: rem(10);
+            line-height: 150%;
+        }
+
+        &__tags {
+            display: flex;
+            flex-wrap: wrap;
+            width: rem(100);
+            height: rem(48);
+            font-size: rem(8);
+        }
+    }
+
+    &__school1 {
+        width: rem(37);
+        height: rem(12);
+        font-size: rem(8);
+    }
+
+    // -----------------------------------
+    &__bar2 {
+        display: flex;
+        justify-content: space-between;
+        width: rem(100);
+        height: rem(15);
+        font-size: rem(10);
+        font-family: 'PoppinsMedium';
+    }
+
+    &__tags2 {
+        width: rem(100);
+        height: rem(37);
+
+        &__title {
+            width: rem(78);
+            height: rem(15);
+
+            font-size: rem(10);
+            line-height: 150%;
+        }
+
+        &__tags {
+            display: flex;
+            flex-wrap: wrap;
+            width: rem(100);
+            height: rem(24);
+            font-size: rem(8);
+        }
+    }
+
+    &__school2 {
+        width: rem(37);
+        height: rem(12);
+        font-size: rem(8);
+    }
+
+    // --------------------------------------
+    &__bar3 {
+        display: flex;
+        justify-content: space-between;
+        width: rem(100);
+        height: rem(15);
+        font-size: rem(10);
+        font-family: 'PoppinsMedium';
+    }
+
+    &__tags3 {
+        width: rem(100);
+        height: rem(49);
+
+        &__title {
+            width: rem(20);
+            height: rem(15);
+
+            font-size: rem(10);
+            line-height: 150%;
+        }
+
+        &__tags {
+            display: flex;
+            flex-wrap: wrap;
+            width: rem(100);
+            height: rem(36);
+            font-size: rem(8);
+        }
+    }
+
+    &__school3 {
+        width: rem(77);
+        height: rem(12);
+        font-size: rem(8);
+    }
+}
+

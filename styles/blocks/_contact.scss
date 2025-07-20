@@ -1,0 +1,35 @@
+@use '../helpers' as *;
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: rem(267);
+    height: rem(92);
+
+    min-width: rem(267);
+    min-height: rem(92);
+
+    padding: rem(12);
+
+    border-radius: rem(12);
+
+    background-color: black;
+
+    &__title {
+        width: rem(243);
+        height: rem(42);
+
+        font-size: rem(14);
+        font-family: 'PoppinsMedium';
+
+        color: white;
+    }
+
+    &__mail {
+        width: rem(173);
+        height: rem(15);
+        font-size: rem(10);
+        color: #DDDDDD;
+    }
+}

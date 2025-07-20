@@ -1,0 +1,14 @@
+@use '../helpers' as *;
+#resume {
+    display: flex;
+    flex-wrap: wrap;
+    gap: rem(20);
+
+    width: rem(595);
+    height: rem(842);
+
+    margin: 0 auto;
+    padding: rem(15) rem(20);
+
+    background-color: white;
+}

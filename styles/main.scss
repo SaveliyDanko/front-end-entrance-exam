@@ -1,0 +1,20 @@
+// global styles
+@use 'normalize';
+@use 'fonts';
+@use 'variables';
+@use 'utils';
+@use 'globals';
+
+// my styles
+@use 'blocks/main';
+@use 'blocks/resume';
+@use 'blocks/photo';
+@use 'blocks/nameBox';
+@use 'blocks/languagesBox';
+@use 'blocks/experienceBox';
+@use 'blocks/toolsBox';
+@use 'blocks/educationBox';
+@use 'blocks/extraBox';
+@use 'blocks/interestsBox';
+@use 'blocks/contact';
+@use 'blocks/download-button';

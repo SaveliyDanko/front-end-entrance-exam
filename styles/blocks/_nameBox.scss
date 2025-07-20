@@ -1,0 +1,60 @@
+@use '../helpers' as *;
+
+.nameBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: rem(124);
+    height: rem(124);
+    
+    padding: rem(12);
+
+    min-width: rem(124);
+    min-height: rem(124);
+
+    border-radius: rem(12);
+
+    background-color: var(--color-grey);
+
+    &__greetingPhrase {
+        width: rem(100);
+        height: rem(15);
+
+
+        font-size: rem(10);
+        font-weight: 500;
+    }
+    
+
+    &__yourInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: rem(100);
+        height: rem(39);
+    }
+
+    &__name {
+        width: rem(100);
+        height: rem(15);
+        font-size: rem(14);
+        font-weight: 600;
+        line-height: 104%;
+    }
+
+    &__role {
+        width: rem(100);
+        height: rem(18);
+        font-size: rem(12);
+        font-weight: 500;
+        line-height: 150%;
+        color: #5C5C5C;
+    }
+
+    @keyframes ripple-animation {
+        to {
+            transform: scale(4);
+            opacity: 0;
+        }
+    }
+}

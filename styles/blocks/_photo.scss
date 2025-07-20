@@ -1,0 +1,14 @@
+@use '../helpers' as *;
+
+.photo {
+    width: rem(124);
+    height: rem(124);
+
+    min-width: rem(124);
+    min-height: rem(124);
+
+    border-radius: rem(12);
+
+    background-image: url('../../images/photo.png');
+    background-size: contain;
+}

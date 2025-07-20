@@ -1,0 +1,268 @@
+@use '../helpers' as *;
+
+.experienceBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: rem(411);
+    height: rem(359);
+
+    min-width: rem(411);
+    min-height: rem(359);
+
+    padding: rem(12) rem(12) rem(10) rem(12);
+
+    border-radius: rem(12);
+
+    background-color: var(--color-grey);
+
+    &__title {
+        width: rem(77);
+        height: rem(21);
+        font-weight: 500;
+        font-size: rem(14);
+        line-height: 150%;
+    }
+
+    &__jobList {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: rem(387);
+        height: rem(300);
+    }
+
+    &__lastJob {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: rem(387);
+        height: rem(76);
+        background-color: var(--color-green);
+        border-radius: rem(10);
+        padding: rem(8);
+        color: white;
+    }
+
+    &__job2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: rem(387);
+        height: rem(108);
+        background-color: white;
+        border-radius: rem(10);
+        padding: rem(8);
+    }
+
+    &__job3 {
+        width: rem(387);
+        height: rem(96);
+        background-color: white;
+        border-radius: rem(10);
+        padding: rem(8);
+    }
+
+    &__topBar1 {
+        display: flex;
+        justify-content: space-between;
+        width: rem(371);
+        height: rem(16);
+    }
+
+    &__date1 {
+        width: rem(78);
+        height: rem(12);
+        font-weight: 500;
+        font-size: rem(8);
+        line-height: 150%;
+        font-family: 'PoppinsMedium';
+    }
+
+    &__tag1 {
+        width: rem(61);
+        height: rem(16);
+
+        border-radius: rem(59);
+
+        background-color: #7E731266;
+
+        font-size: rem(8);
+        line-height: rem(16);
+        text-align: center;
+        color: #DDF163;
+    }
+
+    &__content1 {
+        display: flex;
+        justify-content: space-between;
+        width: rem(371);
+        height: rem(36);
+    }
+
+    &__jobInfo1 {
+        width: rem(124);
+        height: rem(25);
+
+    }
+
+    &__role1 {
+        width: rem(100);
+        height: rem(15);
+        font-weight: 500;
+        font-size: rem(10);
+        line-height: 150%;
+    }
+
+    &__about1 {
+        width: rem(124);
+        height: rem(12);
+        line-height: 150%;
+        font-size: rem(8);
+    }
+
+    &__points1 {
+        width: rem(239);
+        height: rem(36);
+        font-size: rem(8);
+        line-height: 150%;
+
+        &:hover {
+            transform: scale(1.0);
+        }
+
+        ul {
+            list-style-position: outside;
+            margin: 0;
+            padding: rem(2);
+        }
+    }
+
+    // -------------------------------------------------------
+    &__topBar2 {
+        display: flex;
+        justify-content: space-between;
+        width: rem(371);
+        height: rem(12);
+    }
+
+    &__date2 {
+        width: rem(60);
+        height: rem(12);
+        font-weight: 500;
+        font-size: rem(8);
+        line-height: 150%;
+        font-family: 'PoppinsMedium';
+    }
+
+    &__content2 {
+        display: flex;
+        justify-content: space-between;
+        gap: rem(8);
+        width: rem(371);
+        height: rem(72);
+    }
+
+    &__jobInfo2 {
+        width: rem(124);
+        height: rem(25);
+
+    }
+
+    &__role2 {
+        width: rem(124);
+        height: rem(15);
+        font-weight: 500;
+        font-size: rem(10);
+        line-height: 150%;
+        font-family: 'PoppinsMedium';
+    }
+
+    &__about2 {
+        width: rem(124);
+        height: rem(12);
+        line-height: 150%;
+        font-size: rem(8);
+    }
+
+    &__points2 {
+        width: rem(239);
+        height: rem(72);
+        font-size: rem(8);
+        line-height: 150%;
+
+        &:hover {
+            transform: scale(1.0);
+        }
+
+        ul {
+            list-style-position: outside;
+            margin: 0;
+            padding: rem(2);
+        }
+    }
+
+    // ----------------------------------------------------------
+    &__topBar3 {
+        display: flex;
+        justify-content: space-between;
+        width: rem(371);
+        height: rem(12);
+    }
+
+    &__date3 {
+        width: rem(84);
+        height: rem(12);
+        font-weight: 500;
+        font-size: rem(8);
+        line-height: 150%;
+        font-family: 'PoppinsMedium';
+    }
+
+    &__content3 {
+        display: flex;
+        justify-content: space-between;
+        gap: rem(8);
+        width: rem(371);
+        height: rem(60);
+    }
+
+    &__jobInfo3 {
+        width: rem(124);
+        height: rem(25);
+
+    }
+
+    &__role3 {
+        width: rem(124);
+        height: rem(15);
+        font-weight: 500;
+        font-size: rem(10);
+        line-height: 150%;
+        font-family: 'PoppinsMedium';
+    }
+
+    &__about3 {
+        width: rem(124);
+        height: rem(12);
+        line-height: 150%;
+        font-size: rem(8);
+    }
+
+    &__points3 {
+        width: rem(239);
+        height: rem(60);
+        font-size: rem(8);
+        line-height: 150%;
+
+        &:hover {
+            transform: scale(1.0);
+        }
+
+        ul {
+            list-style-position: outside;
+            margin: 0;
+            padding: rem(2);
+        }
+    }
+}

@@ -1,0 +1,15 @@
+@use '../helpers' as *;
+
+.extraBox {
+    display: flex;
+    flex-direction: column;
+    gap: rem(20);
+
+    width: rem(267);
+    height: rem(289);
+
+    min-width: rem(267);
+    min-height: rem(289);
+
+    border-radius: rem(12);
+}
