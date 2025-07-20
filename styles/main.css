@@ -310,7 +310,7 @@ svg * {
   min-width: 7.75rem;
   min-height: 7.75rem;
   border-radius: 0.75rem;
-  background-image: url("front-end-entrance-exam/images/photo.png");
+  background-image: url("../images/photo.png");
   background-size: contain;
 }
 
@@ -940,7 +940,7 @@ svg * {
 .educationBox__bar1 div:last-child {
   width: 0.6875rem;
   height: 0.625rem;
-  background-image: url("../../icons/Vector.svg");
+  background-image: url("../icons/Vector.svg");
 }
 .educationBox__tags1 {
   width: 6.25rem;
