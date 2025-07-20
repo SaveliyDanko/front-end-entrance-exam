@@ -739,7 +739,7 @@ svg * {
   left: 1.125rem;
   width: 0.6875rem;
   height: 0.9375rem;
-  background-image: url(../../icons/logoFigma.svg);
+  background-image: url(../icons/logoFigma.svg);
 }
 .toolsBox__adobe-photoshop {
   position: absolute;
@@ -747,7 +747,7 @@ svg * {
   right: 1.125rem;
   width: 1rem;
   height: 0.9375rem;
-  background-image: url(../../icons/adobe_photoshop_.svg);
+  background-image: url(../icons/adobe_photoshop_.svg);
 }
 .toolsBox__adobe-illustrator {
   position: absolute;
@@ -755,7 +755,7 @@ svg * {
   left: 1rem;
   width: 0.9375rem;
   height: 0.9375rem;
-  background-image: url(../../icons/adobe_illustrator_.svg);
+  background-image: url(../icons/adobe_illustrator_.svg);
 }
 .toolsBox__adobe-premier {
   position: absolute;
@@ -763,7 +763,7 @@ svg * {
   right: 1rem;
   width: 0.9375rem;
   height: 0.9375rem;
-  background-image: url(../../icons/adobe_premiere_.svg);
+  background-image: url(../icons/adobe_premiere_.svg);
 }
 .toolsBox__logoNotion {
   position: absolute;
@@ -771,7 +771,7 @@ svg * {
   left: 1rem;
   width: 1.125rem;
   height: 1.1875rem;
-  background-image: url(../../icons/logoNotion.svg);
+  background-image: url(../icons/logoNotion.svg);
 }
 .toolsBox__logoMeet {
   position: absolute;
@@ -779,7 +779,7 @@ svg * {
   right: 1rem;
   width: 1.125rem;
   height: 1.0625rem;
-  background-image: url(../../icons/logoMeet.svg);
+  background-image: url(../icons/logoMeet.svg);
 }
 .toolsBox__nocode {
   position: relative;
@@ -795,7 +795,7 @@ svg * {
   left: 0.6875rem;
   width: 1.25rem;
   height: 1.3125rem;
-  background-image: url(../../icons/logoZapier.svg);
+  background-image: url(../icons/logoZapier.svg);
 }
 .toolsBox__logoWebflow {
   position: absolute;
@@ -803,7 +803,7 @@ svg * {
   right: 0.6875rem;
   width: 1.125rem;
   height: 1.1875rem;
-  background-image: url(../../icons/logoWebflow.svg);
+  background-image: url(../icons/logoWebflow.svg);
 }
 .toolsBox__logoFramer {
   position: absolute;
@@ -811,7 +811,7 @@ svg * {
   left: 0.75rem;
   width: 0.8125rem;
   height: 1.1875rem;
-  background-image: url(../../icons/logoFramer.svg);
+  background-image: url(../icons/logoFramer.svg);
 }
 .toolsBox__logoWordpress {
   position: absolute;
@@ -819,7 +819,7 @@ svg * {
   right: 0.9375rem;
   width: 1.0625rem;
   height: 1.125rem;
-  background-image: url(../../icons/logoWordpress.svg);
+  background-image: url(../icons/logoWordpress.svg);
 }
 .toolsBox__ai {
   position: relative;
@@ -835,7 +835,7 @@ svg * {
   left: 0.75rem;
   width: 1.25rem;
   height: 1.25rem;
-  background-image: url(../../icons/logoChatGPT.svg);
+  background-image: url(../icons/logoChatGPT.svg);
 }
 .toolsBox__logoCopilot {
   position: absolute;
@@ -843,7 +843,7 @@ svg * {
   right: 0.75rem;
   width: 1.125rem;
   height: 1.1875rem;
-  background-image: url(../../icons/logoCopilot.svg);
+  background-image: url(../icons/logoCopilot.svg);
 }
 .toolsBox__logoMidjourney {
   position: absolute;
@@ -851,7 +851,7 @@ svg * {
   left: 0.6875rem;
   width: 1.1875rem;
   height: 1.1875rem;
-  background-image: url(../../icons/logoMidjourney.svg);
+  background-image: url(../icons/logoMidjourney.svg);
 }
 
 .educationBox {
