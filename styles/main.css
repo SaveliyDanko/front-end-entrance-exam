@@ -310,7 +310,7 @@ svg * {
   min-width: 7.75rem;
   min-height: 7.75rem;
   border-radius: 0.75rem;
-  background-image: url("../../images/photo.png");
+  background-image: url("front-end-entrance-exam/images/photo.png");
   background-size: contain;
 }
 
