@@ -1,3 +1,4 @@
+/* jshint esversion: 6 */
 
 document.getElementById('download-pdf').addEventListener('click', () => {
     const element = document.getElementById('resume');
